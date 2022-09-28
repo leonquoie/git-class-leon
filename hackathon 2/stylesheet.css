@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+.side{
+    background-image: url(./images/bg-image.png);
+    color: white;
+    background-color: #ff7978;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+
+}
+
+.left{
+    margin-right: 200px;
+}
+.side h1{
+       margin-bottom: 12px;
+       font-size: 45px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6%;
+    align-items: flex-start;
+}
+
+.trier-btn{
+        border: none;
+        background-color: rgb(119, 55, 221);
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        width: 99%;
+        padding: 1.2rem;
+        border-radius: 5.1px;
+}
+
+
+form{
+    width: 24rem;
+    height: 21rem;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px #574d4ce0;
+    padding: 1rem 21em 1rem 1rem;
+    margin-top: 1.6rem;
+    padding: 1rem 1rem 1rem 1rem;
+    align-items: center;
+}
+
+.right input{
+    outline: none;
+    padding: 1rem;
+    font-size:medium;
+    border: 1px solid #817f7f;
+    width: 98%;
+}
+
+label{
+    font-size: 10.2px;
+    margin-top: 1%;
+    color: #807272;
+
+}
+
+a {
+    color:red;
+    text-decoration: none;
+}
+
+.button{
+     box-shadow: 3px ;
+     text-transform: uppercase;
+     cursor: pointer;
+     width: 98%;
+     border: none;
+     padding: 0.9rem;
+     border-radius: 4.9px;
+     background-color: #04aa6d;
+     color: white;
+}
+form input{
+    margin-bottom: 5px;
+    border-radius: 5.1px;
+}
